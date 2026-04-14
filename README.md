@@ -99,7 +99,27 @@ This project uses TypeORM for database management:
 - Migrations support (optional)
 
 ---
-
+## 📁 Project Structure
+src/
+ ├── app.module.ts
+ ├── main.ts
+ │
+ ├── auth/
+ │    ├── controller/
+ │    ├── dto/
+ │    ├── entities/
+ │    └── service/
+ │
+ ├── tasks/
+ │    ├── controller/
+ │    ├── dto/
+ │    ├── entities/
+ │    ├── guard/
+ │    ├── middleware/
+ │    ├── service/
+ │    └── validations/
+ │
+ └── database/
 ## 📦 Installation
 
 ```bash id="install_01"
