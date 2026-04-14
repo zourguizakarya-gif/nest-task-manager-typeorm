@@ -100,6 +100,7 @@ This project uses TypeORM for database management:
 
 ---
 ## 📁 Project Structure
+```txt
 src/
  ├── app.module.ts
  ├── main.ts
@@ -118,8 +119,7 @@ src/
  │    ├── middleware/
  │    ├── service/
  │    └── validations/
- │
- └── database/
+```
 ## 📦 Installation
 
 ```bash id="install_01"
